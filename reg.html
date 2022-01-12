@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RIP</title>
+    </head>
+    <body>
+        <p id="text">hello world</p>
+<div id="txt">
+
+</div>
+
+<button id="delete" onclick="delete1()" > delete </button>
+
+<script>
+let div = document.getElementById("txt")
+let newp = document.createElement("p")
+let text = document.createTextNode("fuck this life");
+newp.appendChild(text);
+div.appendChild(newp);
+
+function delete1(){
+    $("p").remove();
+
+}
+</script>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+</html>
